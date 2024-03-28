@@ -31,3 +31,17 @@ After label the image, we need to split the dataset into 3 folders, train, val a
 -- Test
 
 ..........................
+
+## 4. Train the model.
+
+Before we train the model, we need to create the yaml file, the structure look like this :
+
+![image](https://github.com/RaffelRavionaldo/Kecilin-Beyblade-test/assets/94748637/3f9b8a92-4db1-4e75-ba2c-fa2c3a0ca3e3)
+
+with :
+
+1. names : name of the object you want to detect (just copy and paste from classes.txt on step 2)
+2. nc : number of classes that you want to detect
+3. train, test and val is location of folder train, test and val from step 3.
+
+
