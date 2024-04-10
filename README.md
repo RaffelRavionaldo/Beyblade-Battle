@@ -76,7 +76,7 @@ is to check if there are already have 2 beyblades in the arena of battle, if yes
 
 ### B. Create_Region function.
 
-Is to define the area of the battle arena. we will use the coordinate to check on the is_out function.
+Is to define the area of the battle arena. we will use the coordinate to check on the is_out function, to call it you need to press D on your keyboard, click on 4 end points of the arena and then press F for save your arena coordinate.
 
 ### C. is_out function.
 
