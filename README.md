@@ -1,6 +1,8 @@
 Model : YOLOv8 Nano Version
 
-Video : https://drive.google.com/file/d/1sWPt_fqvK82YPGzzOqg-BkOyBNMsog1h/view?usp=sharing
+Video input : https://drive.google.com/file/d/1sWPt_fqvK82YPGzzOqg-BkOyBNMsog1h/view?usp=sharing
+
+Video output : https://drive.google.com/file/d/1SXSWvfkxsb4-xOuETEB4CNhJJ0gpr9aR/view?usp=sharing
 
 Dataset for training : https://drive.google.com/drive/folders/1S083U2eWm-EKZyTFqF3EcCqRNYWtxQ2F?usp=sharing
 
