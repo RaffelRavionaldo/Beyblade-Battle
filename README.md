@@ -84,7 +84,7 @@ Is to define the area of the battle arena. we will use the coordinate to check o
 
 ![image](https://github.com/RaffelRavionaldo/Kecilin-Beyblade-test/assets/94748637/fc92fa1e-6d48-40bb-b883-13a9b10f82e2)
 
-To know if there any beyblade gets out from the battle arena or not, we detect it with cv2.pointpolygontest function, so if the Xcenter and Ycenter of all Beyblade on the polygon (in this case is the arena we draw in create_region function) all beyblade will get winner status, but if one of them get out from polygon so the status will change into lose.
+To know if any Beyblade gets out from the battle arena or not, we detect it with the cv2.pointpolygontest function, so if the Xcenter and Ycenter of all Beyblade on the polygon (in this case is the arena we draw in create_region function) all beyblade will get winner status, but if one of them get out from polygon so the status will change into lose.
 
 ### D. check_spin_status function.
 
@@ -96,8 +96,8 @@ After I give a short explanation of each function in my code, so now I will expl
 
 ![image](https://github.com/RaffelRavionaldo/Kecilin-Beyblade-test/assets/94748637/1482814d-e3c5-4ee4-aca4-bf5a4d0e0c0a)
 
-In the above code, we call the is_out function to get the status of 2 Beyblades, if the 2 Beyblades are still on the fight, we will get 2 winner in the kondisi dictionary, but if one of them is out we will get the 1 winner and 1 loser in kondisi dictionary, then we capture the winner and losses. the kondisi dictionary will be reset after checking because we will check the spin of Beyblade.
+In the above code, we call the is_out function to get the status of 2 Beyblades, if the 2 Beyblades are still in the fight, we will get 2 winners in the kondisi dictionary, but if one of them is out we will get the 1 winner and 1 loser in kondisi dictionary, then we capture the winner and losses. the kondisi dictionary will be reset after checking because we will check the spin of Beyblade.
 
 ![image](https://github.com/RaffelRavionaldo/Kecilin-Beyblade-test/assets/94748637/be4dd80b-872b-4c63-8de6-536c40e9ea65)
 
-The logic of this code is same as the is_out condition.
+The logic of this code is the same as the is_out condition.
