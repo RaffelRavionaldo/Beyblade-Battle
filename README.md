@@ -17,7 +17,7 @@ notes for output :
 1. winner.jpg : The image of the winner Beyblade.
 2. losser.jpg : The image of the losser Beyblade.
 3. kondisi terakhir.jpg = The last frame processed before the battle ended.
-4. battle_result.csv : CSV file that contains battle time, location of the winner and loser on the battle, and the reason for the winner (is because the opponent is out of the arena or stopped spinning).
+4. battle_result.csv : CSV file that contains battle time (on seconds), location of the winner and loser on the battle, and the reason for the winner (is because the opponent is out of the arena (musuh keluar arena), stopped spinning (musuh berhenti berputar) or the owner the the beyblade (musuh diambil).
 5. best.pt : The yolov8 nano weight after training the model with our data.
 
 -----------------------------------------------------------------------------------------------------------
